@@ -1,0 +1,8 @@
+--doc  This is an argument file to execute the scripts in sequential order based on the given input
+--variable TitleText_Value:Test Automation
+--variable Valid_Email:nandhatestt@gmail.com
+--variable Valid_Password:Raw@1234
+--variable Invalid_Email:invalidemail@gmail.com
+--variable Invalid_Password:InvalidPassword
+tests/login_tests.robot
+tests/Notes_tests.robot
